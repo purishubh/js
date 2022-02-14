@@ -1,13 +1,13 @@
-console.log("Print * 4x4 in javaScript");
+console.log("Print * 4x4 in javaScript"); // print in header
 
-var str = '';
-var numb = 4;
+var str = ''; // variable to store output
+var numb = 4; // variable for row & column
 
-for(var i=0; i<numb; i++){
-  for(var j=0; j<numb; j++){
-    str += '*';
+for(var i=0; i<numb; i++){ // outer loop for row
+  for(var j=; j<numb; j++){ // inner loop for column
+    str += '*'; // store * in str variable
   }
-  str += '\n'; 
+  str += '\n'; // store new line in str variable
 }
 
-console.log(str);
+console.log(str); // print output through str variable
