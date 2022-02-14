@@ -1,0 +1,13 @@
+console.log("Print * 4x4 in javaScript");
+
+var str = '';
+var numb = 4;
+
+for(var i=0; i<numb; i++){
+  for(var j=0; j<numb; j++){
+    str += '*';
+  }
+  str += '\n'; 
+}
+
+console.log(str);
